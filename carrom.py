@@ -32,13 +32,19 @@ class CarromBoard():
 		pygame.draw.circle(self.screen, black, (587,550), 25)
 		pygame.draw.circle(self.screen, yellow2, (543,575), 25)
 		pygame.draw.circle(self.screen, yellow2, (457,575), 25)
-		pygame.draw.circle(self.screen, yellow2, (413,575), 25)
+		pygame.draw.circle(self.screen, yellow2, (414,552), 25)
 		pygame.draw.circle(self.screen, yellow2, (457,425), 25)
 		pygame.draw.circle(self.screen, black, (500,600), 25)
 		pygame.draw.circle(self.screen, yellow2, (457,525), 25)
 		pygame.draw.circle(self.screen, black, (457,475), 25)
 		pygame.draw.circle(self.screen, black, (543,475), 25)
 		pygame.draw.circle(self.screen, yellow2, (500,450), 25)
+		pygame.draw.circle(self.screen, yellow2, (410,500), 25)
+		pygame.draw.circle(self.screen, yellow2, (590,500), 25)
+		pygame.draw.circle(self.screen, black, (412,450), 25)
+		pygame.draw.circle(self.screen, black, (585,450), 25)
+		pygame.draw.circle(self.screen, yellow2, (542,425), 25)
+		pygame.draw.circle(self.screen, black, (500,400), 25)
 
 	def run(self):
 		while True:
